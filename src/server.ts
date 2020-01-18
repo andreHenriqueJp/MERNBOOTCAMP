@@ -23,3 +23,5 @@ app.listen(9090, async () => {
     await connect("mongodb://localhost:27017/iesp");
     console.log("servidor em pé")
 });
+
+export default app;
