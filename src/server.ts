@@ -19,7 +19,7 @@ app.use((req: Request, res: Response, next:NextFunction) =>{
     next();
 })
 
-app.listen(9090, async () => {
+app.listen(9191, async () => {
     await connect("mongodb://localhost:27017/iesp");
     console.log("servidor em pé")
 });

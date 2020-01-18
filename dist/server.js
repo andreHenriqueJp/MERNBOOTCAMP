@@ -22,4 +22,5 @@ app.listen(9090, async () => {
     await mongoose_1.connect("mongodb://localhost:27017/iesp");
     console.log("servidor em pé");
 });
+exports.default = app;
 //# sourceMappingURL=server.js.map

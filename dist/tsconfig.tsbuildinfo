@@ -362,12 +362,28 @@
         "signature": "db71670371d15121b158e487024a5e21405ef0e1c0517d3f4905496dc303c4a2"
       },
       "../src/server.ts": {
-        "version": "14a68ca30d9973f6d778e40b215c6e07a3e607b30b5434c02735e8422e722ddc",
-        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+        "version": "3afabc344bb437bd7963f9cd24050866420e67ef2f1a9f82394378b4213efa4d",
+        "signature": "0e24bb784f3be5aa71dd9fa640dc89df3aab0c7acc54069e68e1cdbc5c7b5b2b"
       },
-      "../src/router/usuario.teste.ts": {
-        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "../node_modules/@types/cookiejar/index.d.ts": {
+        "version": "16b7fb094ffaa5d270f934e7406e8baee2f8245cfabf6dcc20f693389f005f56",
+        "signature": "16b7fb094ffaa5d270f934e7406e8baee2f8245cfabf6dcc20f693389f005f56"
+      },
+      "../node_modules/@types/superagent/index.d.ts": {
+        "version": "917ef877f705a9e37030fa85387a3d9ced337db830b4dec26559dc00b6b0b17b",
+        "signature": "917ef877f705a9e37030fa85387a3d9ced337db830b4dec26559dc00b6b0b17b"
+      },
+      "../node_modules/@types/supertest/index.d.ts": {
+        "version": "02a185b5e8d74b38264ffb77baa99e83969ba558958df28f971528dcbdd94876",
+        "signature": "02a185b5e8d74b38264ffb77baa99e83969ba558958df28f971528dcbdd94876"
+      },
+      "../node_modules/mockingoose/lib/index.d.ts": {
+        "version": "32363e8373083d9ba843eeb259213fdf563aad89f565f100b38e729ef7130b2e",
+        "signature": "32363e8373083d9ba843eeb259213fdf563aad89f565f100b38e729ef7130b2e"
+      },
+      "../src/router/usuario.test.ts": {
+        "version": "8d6c0d7ae93d5e17e60b4673ceb87ff2ea56ebbcca62f4d7ee20cdef17660f57",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
       },
       "../node_modules/@babel/types/lib/index.d.ts": {
         "version": "b05f0003bcf151be87491c83a4ba37b561798f1282b92cedb3a4e75a0224eb85",
@@ -392,10 +408,6 @@
       "../node_modules/@types/babel__core/index.d.ts": {
         "version": "8b6748f9e15ad7bac494dc3cd3b13ba0a8be195aca97f7c10a96b1c74a956f32",
         "signature": "8b6748f9e15ad7bac494dc3cd3b13ba0a8be195aca97f7c10a96b1c74a956f32"
-      },
-      "../node_modules/@types/cookiejar/index.d.ts": {
-        "version": "16b7fb094ffaa5d270f934e7406e8baee2f8245cfabf6dcc20f693389f005f56",
-        "signature": "16b7fb094ffaa5d270f934e7406e8baee2f8245cfabf6dcc20f693389f005f56"
       },
       "../node_modules/@types/istanbul-lib-coverage/index.d.ts": {
         "version": "9e951ec338c4232d611552a1be7b4ecec79a8c2307a893ce39701316fe2374bd",
@@ -424,14 +436,6 @@
       "../node_modules/@types/stack-utils/index.d.ts": {
         "version": "41422586881bcd739b4e62d9b91cd29909f8572aa3e3cdf316b7c50f14708d49",
         "signature": "41422586881bcd739b4e62d9b91cd29909f8572aa3e3cdf316b7c50f14708d49"
-      },
-      "../node_modules/@types/superagent/index.d.ts": {
-        "version": "917ef877f705a9e37030fa85387a3d9ced337db830b4dec26559dc00b6b0b17b",
-        "signature": "917ef877f705a9e37030fa85387a3d9ced337db830b4dec26559dc00b6b0b17b"
-      },
-      "../node_modules/@types/supertest/index.d.ts": {
-        "version": "02a185b5e8d74b38264ffb77baa99e83969ba558958df28f971528dcbdd94876",
-        "signature": "02a185b5e8d74b38264ffb77baa99e83969ba558958df28f971528dcbdd94876"
       },
       "../node_modules/@types/yargs-parser/index.d.ts": {
         "version": "fdfbe321c556c39a2ecf791d537b999591d0849e971dd938d88f460fea0186f6",
@@ -1130,7 +1134,41 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/router/usuario.teste.ts": [
+      "../node_modules/@types/cookiejar/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/superagent/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/cookiejar/index.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/supertest/index.d.ts": [
+        "../node_modules/@types/superagent/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/mockingoose/lib/index.d.ts": [
+        "../node_modules/@types/mongoose/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/router/usuario.test.ts": [
+        "../node_modules/@types/supertest/index.d.ts",
+        "../node_modules/mockingoose/lib/index.d.ts",
+        "../src/model/usuario.ts",
+        "../src/server.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -1182,12 +1220,6 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../node_modules/@types/cookiejar/index.d.ts": [
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "../node_modules/@types/istanbul-lib-coverage/index.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -1230,23 +1262,6 @@
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../node_modules/@types/stack-utils/index.d.ts": [
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/@types/superagent/index.d.ts": [
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/http.d.ts",
-        "../node_modules/@types/node/stream.d.ts",
-        "../node_modules/@types/cookiejar/index.d.ts",
-        "../node_modules/@types/node/ts3.2/index.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/@types/supertest/index.d.ts": [
-        "../node_modules/@types/superagent/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -1913,6 +1928,29 @@
       "../src/router/usuarioRouter.ts": [
         "../node_modules/@types/express-serve-static-core/index.d.ts"
       ],
+      "../node_modules/@types/cookiejar/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/superagent/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/cookiejar/index.d.ts",
+        "../node_modules/@types/node/ts3.2/index.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/@types/supertest/index.d.ts": [
+        "../node_modules/@types/superagent/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "../node_modules/@babel/types/lib/index.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -1954,12 +1992,6 @@
         "../node_modules/@types/babel__template/index.d.ts",
         "../node_modules/@babel/types/lib/index.d.ts",
         "../node_modules/@babel/parser/typings/babel-parser.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/@types/cookiejar/index.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -2012,23 +2044,6 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../node_modules/@types/superagent/index.d.ts": [
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/http.d.ts",
-        "../node_modules/@types/node/stream.d.ts",
-        "../node_modules/@types/cookiejar/index.d.ts",
-        "../node_modules/@types/node/ts3.2/index.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/@types/supertest/index.d.ts": [
-        "../node_modules/@types/superagent/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "../node_modules/@types/yargs-parser/index.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -2037,6 +2052,16 @@
       ],
       "../node_modules/@types/yargs/index.d.ts": [
         "../node_modules/@types/yargs-parser/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/server.ts": [
+        "../node_modules/@types/express/index.d.ts"
+      ],
+      "../node_modules/mockingoose/lib/index.d.ts": [
+        "../node_modules/@types/mongoose/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -2134,14 +2159,15 @@
       "../src/model/usuario.ts",
       "../src/service/usuarioService.ts",
       "../src/router/usuarioRouter.ts",
-      "../src/server.ts",
+      "../node_modules/@types/cookiejar/index.d.ts",
+      "../node_modules/@types/superagent/index.d.ts",
+      "../node_modules/@types/supertest/index.d.ts",
       "../node_modules/@babel/types/lib/index.d.ts",
       "../node_modules/@types/babel__generator/index.d.ts",
       "../node_modules/@types/babel__traverse/index.d.ts",
       "../node_modules/@babel/parser/typings/babel-parser.d.ts",
       "../node_modules/@types/babel__template/index.d.ts",
       "../node_modules/@types/babel__core/index.d.ts",
-      "../node_modules/@types/cookiejar/index.d.ts",
       "../node_modules/@types/istanbul-lib-coverage/index.d.ts",
       "../node_modules/@types/istanbul-lib-report/index.d.ts",
       "../node_modules/@types/istanbul-reports/index.d.ts",
@@ -2149,11 +2175,11 @@
       "../node_modules/jest-diff/build/index.d.ts",
       "../node_modules/@types/jest/index.d.ts",
       "../node_modules/@types/stack-utils/index.d.ts",
-      "../node_modules/@types/superagent/index.d.ts",
-      "../node_modules/@types/supertest/index.d.ts",
       "../node_modules/@types/yargs-parser/index.d.ts",
       "../node_modules/@types/yargs/index.d.ts",
-      "../src/router/usuario.teste.ts"
+      "../src/server.ts",
+      "../src/router/usuario.test.ts",
+      "../node_modules/mockingoose/lib/index.d.ts"
     ]
   },
   "version": "3.7.5"
